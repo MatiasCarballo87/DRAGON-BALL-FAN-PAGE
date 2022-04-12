@@ -1,0 +1,484 @@
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: beige;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado .logo {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    max-width: 100%;
+    padding: 2rem 2rem;
+    background: radial-gradient(grey, black);
+}
+
+/* index */
+
+.logo img {
+    max-width: 100%;
+}
+.logo .cuatroest img {
+    max-width: 100%;
+}
+/* .encabezado .logo {
+    width: 100%;
+    height: 80vh;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../imagenes/dragonballlogo.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ */
+.encabezado .menu ul {
+    display: flex;
+    background-color: #fff;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+}
+
+.menu a {
+    color: black;
+}
+
+.noticias h2 {
+    text-align: center;
+    margin: 20px 0 30px 0;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.poster img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+}
+
+.poster p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 5vw 30px 5vw;
+}
+
+.productos h2 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.productos p {
+    text-align: center;
+}
+
+.fleximg {
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    gap: 0.8rem;
+    padding: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.fleximg .gohan {
+    border: 1px solid #000;
+    width: 400px;
+}
+
+.fleximg img {
+    width: 100%;
+}
+
+.fleximg .manga {
+    border: 1px solid #000;
+    width: 400px;
+}
+
+.fleximg img {
+    width: 100%;
+}
+
+.fleximg .gokussj {
+    border: 1px solid #000;
+    width: 400px;
+}
+
+.fleximg img {
+    width: 100%;
+}
+
+
+.multimedia h2 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.multimedia iframe {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+.multimedia p {
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 80px;
+    padding: 2rem;
+    color: white;
+    background: linear-gradient(to left, rgb(59, 59, 59), #000);
+}
+
+footer .float {
+    float: right;
+}
+
+footer a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* fin de index */
+/* noticias */
+
+.noticiaspage h2 {
+    font-size: 3.2rem;
+    text-decoration: underline;
+    margin: 20px 0 20px 20px;
+}
+
+.noticiaspage h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.noticiaspage img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+}
+
+.noticiaspage p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 5vw 30px 5vw;
+}
+
+.noticiaspage2 h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.noticiaspage2 img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+}
+
+.noticiaspage2 p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 5vw 30px 5vw;
+}
+
+/* fin de noticias */
+/* productos */
+
+.productospage h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 20px 0 20px 20px;
+}
+    
+/* .gohanpage h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+} */
+
+/* .gohanpage img{
+    margin: 0 20px 20px 50px;
+    border: solid black 1px;
+} */
+
+/* .mangapage h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+} */
+
+/* .mangapage img{
+    margin: 0 20px 20px 50px;
+    border: solid black 1px;
+} */
+
+/* .gokussjpage h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+} */
+
+/* .gokussjpage img{
+    margin: 0 20px 20px 50px;
+    border: solid black 1px;
+}
+ */
+.tabla, th, td {
+    margin: 20px auto 0 auto;
+    padding: 5px;
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabla ul li {
+   list-style-type: none;
+   text-align: center;
+}
+
+/* fin productos */
+/* multimedia */
+
+.multimediapage h2 {
+    font-size: 3.2rem;
+    text-decoration: underline;
+    margin: 20px 0 20px 20px;
+}
+
+.multimediapage h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.multimediapage iframe {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+.multimediapage p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 0 30px 0;
+}
+
+.reviewpage h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.reviewpage iframe {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+.reviewpage p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 0 30px 0;
+}
+
+/* fin multimedia */
+/* contacto */
+
+.contacto h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 20px 0 20px 20px;
+}
+
+.contacto form {
+   text-align: center;
+   font-size: x-large;
+}
+
+.contacto input {
+    letter-spacing: large;
+    height: 25px;
+}
+
+.genero {
+    height: 25px;
+}
+
+.boton {
+    height: 25px;
+}
+
+/* fin contacto */
+
+.name h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+/* grid para pagina productos */
+
+.gohanpage {
+    display: grid;
+    grid-template-columns: repeat(10, 0.5fr);
+    gap: 0.5rem;
+    margin: 8vh 8vw;
+    padding: 5vh 10vw;
+    border: solid 2px;
+}
+
+.gohanpage img {
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.gohanpage img:nth-child(1) {
+    grid-column: 1/5;
+    grid-row: 2/6;
+}
+
+.gohanpage img:nth-child(2) {
+    grid-column: 6/8;
+    grid-row: 2/4;
+}
+
+.gohanpage img:nth-child(3) {
+    grid-column: 8/10;
+    grid-row: 3/5;
+}
+
+.gohanpage img:nth-child(4) {
+    grid-column: 6/8;
+    grid-row: 4/6;
+}
+
+.mangapage {
+    display: grid;
+    grid-template-columns: repeat(10, 0.5fr);
+    gap: 0.5rem;
+    margin: 8vh 8vw;
+    padding: 5vh 10vw;
+    border: solid 2px;
+}
+
+.mangapage img {
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.mangapage img:nth-child(1) {
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+
+.mangapage img:nth-child(2) {
+    grid-column: 9/11;
+    grid-row: 4/5;
+}
+
+.mangapage img:nth-child(3) {
+    grid-column: 7/10;
+    grid-row: 1/4;
+}
+
+.mangapage img:nth-child(4) {
+    grid-column: 6/8;
+    grid-row: 4/6;
+}
+
+.gokussjpage {
+    display: grid;
+    grid-template-columns: repeat(9, 0.5fr);
+    gap: 0.5rem;
+    margin: 8vh 8vw;
+    padding: 5vh 10vw;
+    border: solid 2px;
+}
+
+.gokussjpage img {
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.gokussjpage img:nth-child(1) {
+    grid-column: 1/5;
+    grid-row: 2/6;
+}
+
+.gokussjpage img:nth-child(2) {
+    grid-column: 6/8;
+    grid-row: 2/4;
+}
+
+.gokussjpage img:nth-child(3) {
+    grid-column: 8/10;
+    grid-row: 3/5;
+}
+
+.gokussjpage img:nth-child(4) {
+    grid-column: 6/8;
+    grid-row: 4/6;
+}
+
+
+@media screen and (max-width: 426px) {
+    .productospage h2, .noticiaspage h2, .multimediapage h2, .contacto h2 {
+        text-align: center;
+    }
+    .logo img {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .logo .cuatroest img {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .logo .cuatroest img {
+        display: none;
+    }
+}
