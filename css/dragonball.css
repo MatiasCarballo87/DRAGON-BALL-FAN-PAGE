@@ -147,11 +147,13 @@ footer .float {
     float: right;
 }
 
-footer a {
-    color: white;
+.bi-instagram, .bi-facebook, .bi-bag {
+    font-size: 2rem;
+    margin: 0 16px;
 }
 
-a {
+footer a {
+    color: white;
     text-decoration: none;
 }
 
