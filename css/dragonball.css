@@ -28,27 +28,23 @@ html {
 .logo .cuatroest img {
     max-width: 100%;
 }
-/* .encabezado .logo {
-    width: 100%;
-    height: 80vh;
-    margin: 0px 0px 0px 0px;
-    background-image: url(../imagenes/dragonballlogo.png);
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-}
- */
-.encabezado .menu ul {
-    display: flex;
-    background-color: #fff;
-    list-style-type: none;
-    justify-content: space-evenly;
-    height: 10vh;
-    align-items: center;
+
+.navbar {
+    background-color: rgb(134, 129, 129);
 }
 
-.menu a {
-    color: black;
+.collapse {
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    margin: 0 16px;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: antiquewhite;
 }
 
 .noticias h2 {
