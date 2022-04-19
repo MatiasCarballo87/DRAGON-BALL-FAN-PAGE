@@ -54,18 +54,11 @@ html {
     text-decoration: underline;
 }
 
-.poster img {
-    display: block;
-    margin: auto;
-    width: auto;
-    height: auto;
-    max-width: 80%;
-}
-
-.poster p {
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 5px 5vw 30px 5vw;
+.carousel-caption {
+    background-color: rgb(153, 152, 152);
+    right: 40%;
+    left: 40%;
+    opacity: 0.80;
 }
 
 .productos h2 {
@@ -133,6 +126,7 @@ html {
 .multimedia p {
     text-align: center;
     margin-top: 2px;
+    font-size: 1.3rem;
 }
 
 footer {
@@ -207,6 +201,27 @@ footer a {
     margin: 5px 5vw 30px 5vw;
 }
 
+.noticiaspage3 h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.noticiaspage3 img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+}
+
+.noticiaspage3 p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 5px 5vw 30px 5vw;
+}
+
 /* fin de noticias */
 /* productos */
 
@@ -216,41 +231,6 @@ footer a {
     margin: 20px 0 20px 20px;
 }
     
-/* .gohanpage h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 30px;
-} */
-
-/* .gohanpage img{
-    margin: 0 20px 20px 50px;
-    border: solid black 1px;
-} */
-
-/* .mangapage h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    font-size: 30px;
-} */
-
-/* .mangapage img{
-    margin: 0 20px 20px 50px;
-    border: solid black 1px;
-} */
-
-/* .gokussjpage h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    font-size: 30px;
-} */
-
-/* .gokussjpage img{
-    margin: 0 20px 20px 50px;
-    border: solid black 1px;
-}
- */
 .tabla, th, td {
     margin: 20px auto 0 auto;
     padding: 5px;
@@ -313,9 +293,9 @@ footer a {
 /* contacto */
 
 .contacto h2 {
-    font-size: 50px;
+    font-size: 3rem;
     text-decoration: underline;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 30px 20px;
 }
 
 .contacto form {
@@ -325,15 +305,10 @@ footer a {
 
 .contacto input {
     letter-spacing: large;
-    height: 25px;
 }
 
-.genero {
-    height: 25px;
-}
-
-.boton {
-    height: 25px;
+.nombre, .apellido, .email {
+    margin: 5px 0;
 }
 
 /* fin contacto */
@@ -455,6 +430,7 @@ footer a {
     grid-row: 4/6;
 }
 
+/* seccion media queris */
 
 @media screen and (max-width: 426px) {
     .productospage h2, .noticiaspage h2, .multimediapage h2, .contacto h2 {
