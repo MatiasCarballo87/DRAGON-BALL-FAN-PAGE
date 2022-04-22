@@ -1,0 +1,45 @@
+.multimediapage {
+    h2{
+        font-size: 3.2rem;
+        text-decoration: underline;
+        margin: 20px 0 20px 20px;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 5px 0 30px 0;
+    }
+}
+
+.reviewpage {
+    h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 5px 0 30px 0;
+    }
+}

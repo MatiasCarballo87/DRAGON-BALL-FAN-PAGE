@@ -1,0 +1,24 @@
+@media screen and (max-width: 426px) {
+    .productospage h2, .noticiaspage h2, .multimediapage h2, .contacto h2 {
+        text-align: center;
+    }
+    .logo img {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .logo .cuatroest img {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .logo .cuatroest img {
+        display: none;
+    }
+}

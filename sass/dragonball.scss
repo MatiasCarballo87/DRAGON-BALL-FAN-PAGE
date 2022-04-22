@@ -1,0 +1,160 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: beige;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "mediaq";
+
+// index
+
+.encabezado .logo {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    max-width: 100%;
+    padding: 2rem 2rem;
+    background: radial-gradient(grey, black);
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.logo .cuatroest img {
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: rgb(134, 129, 129);
+    .collapse {
+        justify-content: center;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    margin: 0 16px;
+    font-size: 1.5rem;
+    &:hover {
+        background-color: antiquewhite;
+    }
+}
+
+.noticias {
+    h2 {
+        text-align: center;
+        margin: 20px 0 30px 0;
+        font-size: 50px;
+        text-decoration: underline;  
+    }
+}
+
+.carousel-caption {
+    background-color: rgb(153, 152, 152);
+    right: 40%;
+    left: 40%;
+    opacity: 0.80;
+}
+
+.productos {
+    h2{
+        text-align: center;
+        margin: 40px 0 20px 0;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.fleximg {
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    gap: 0.8rem;
+    padding: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .gohan {
+        border: 1px solid #000;
+        width: 400px;
+    }
+
+    .manga {
+        border: 1px solid #000;
+        width: 400px;
+    }
+
+    .gokussj {
+        border: 1px solid #000;
+        width: 400px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.multimedia {
+    h2 {
+        text-align: center;
+        margin: 40px 0 20px 0;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 2px;
+        font-size: 1.3rem;
+    }
+}
+
+footer {
+    background-color: #000;
+    margin-top: 80px;
+    padding: 2rem;
+    color: white;
+    background: linear-gradient(to left, rgb(59, 59, 59), #000);
+
+    .float {
+        float: right;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .bi-instagram, .bi-facebook, .bi-bag {
+        font-size: 2rem;
+        margin: 0 16px;
+    }
+}
+
+// fin de index
+
+@import "noticias";
+
+@import "multimedia";
+
+@import "contacto";
+
+
+

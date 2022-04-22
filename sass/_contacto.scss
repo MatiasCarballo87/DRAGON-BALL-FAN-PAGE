@@ -1,0 +1,20 @@
+.contacto {
+    h2 {
+        font-size: 3rem;
+        text-decoration: underline;
+        margin: 20px 0 30px 20px;
+    }
+
+    form {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    input {
+        letter-spacing: large;
+    }
+}
+
+.nombre, .apellido, .email {
+    margin: 5px 0;
+}
