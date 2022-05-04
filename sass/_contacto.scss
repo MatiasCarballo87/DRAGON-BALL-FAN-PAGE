@@ -1,20 +1,74 @@
 .contacto {
     h1 {
-        font-size: 3rem;
-        text-decoration: underline;
-        margin: 20px 0 30px 20px;
+        font-size: 3.5rem;
+        margin: 50px 0 50px 20px;
+        text-align: center;
     }
 
     form {
         text-align: center;
         font-size: x-large;
+        width: 500px;
+        background-color: black;
+        padding: 5vh;
+        margin: auto;
+        max-width: 90%;
+        border-radius: 4px;
+        color: white;
+        box-shadow: 7px 13px 37px grey;
+
+        .nombre, .apellido, .email {
+            input {
+                width: 100%;
+                padding: 2vh;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1.5px solid rgb(131, 247, 183);
+                font-size: 1rem;
+            }
+        }
+        
+        .genero {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            margin-top: 16px;
+            border-radius: 4px;
+            border: 1.5px solid rgb(131, 247, 183);
+        }
+        
+        .novedades {
+            margin-bottom: 16px;
+        }
+        
+        .input {
+            width: 20px;
+            height: 20px;
+        }
+
+        textarea {
+            border-radius: 4px;
+            border: 1.5px solid rgb(131, 247, 183);
+            padding: 2vh;
+            max-width: 90%;
+        }
+
+        @mixin boton {
+            border-radius: 4px;
+            font-size: 1.5rem;
+            padding: 1vh 1vw;
+            margin: 16px 0;
+            color: white;
+        }
+
+        .boton-limpiar {
+            background-color: rgb(161, 161, 161);
+            @include boton;
+        }
+
+        .boton-enviar {
+            background-color: rgb(131, 247, 183);
+            @include boton;
+        }
     }
 
-    input {
-        letter-spacing: large;
-    }
-}
-
-.nombre, .apellido, .email {
-    margin: 5px 0;
 }

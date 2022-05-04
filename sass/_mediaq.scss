@@ -23,22 +23,93 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .inicio {
-        display: none;
-    }
-}
-
-@media (min-width: 0px) and (min-width: 425px) {
-    .lomas {
+@media (min-width: 0px) and (max-width: 425px) {
+    .inicio h1 {
         text-align: center;
         margin: 5vw 0;
         font-size: 3rem;
     }
 }
 
-@media (min-width: 426px) and (max-width: 2560px) {
-    .lomas {
-        display: none;
+@media (min-width: 0px) and (max-width: 425px) {
+    .area-grid {
+        grid-template-columns: 1fr;
+    }
+}    
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .gohanpage {
+        grid-template-columns: 1fr;
+        img {
+            &:nth-child(1) {
+                grid-column: 1;
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .mangapage {
+        grid-template-columns: 1fr;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+
+            &:nth-child(1){
+                grid-column: 1;
+                grid-row: 1/3;
+            }
+            &:nth-child(2){
+                grid-column: 1;
+                grid-row: 4;
+            }
+            &:nth-child(3){
+                grid-column: 1;
+                grid-row: 3;
+            }
+            &:nth-child(4){
+                grid-column: 1;
+                grid-row: 5/8;
+            }
+            &:nth-child(5){
+                grid-column: 1;
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .gokussjpage {
+        grid-template-columns: 1fr;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+
+            &:nth-child(1){
+                grid-column: 1;
+                grid-row: 1;
+            }
+            &:nth-child(2){
+                grid-column: 1;
+                grid-row: 2;
+            }
+            &:nth-child(3){
+                grid-column: 1;
+                grid-row: 3;
+            }
+            &:nth-child(4){
+                grid-column: 1;
+                grid-row: 4;
+            }
+            &:nth-child(5){
+                grid-column: 1;
+                grid-row: 5;
+            }
+        }
     }
 }
