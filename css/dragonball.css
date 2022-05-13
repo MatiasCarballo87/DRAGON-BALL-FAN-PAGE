@@ -12,6 +12,10 @@ body {
   left: 0;
   right: 0;
   width: 100%; }
+  body table {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
+  body p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; }
 
 .encabezado .logo {
   display: flex;
